@@ -11,8 +11,8 @@
 			console.log('正在检查')
 			const delay = Math.floor(Math.random() * MAX_DELAY * 1000) + 1000
 
-			if (!/1\.5/.test($('.speedBox').attr('style'))) {
-				console.log('提升到1.5倍速')
+			if (!/1\.0/.test($('.speedBox').attr('style'))) {
+				console.log('使用1倍速')
 				$('.speedTab15').click()
 			}
 
