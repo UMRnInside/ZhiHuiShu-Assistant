@@ -13,7 +13,7 @@
 
 			if (!/1\.0/.test($('.speedBox').attr('style'))) {
 				console.log('使用1倍速')
-				$('.speedTab15').click()
+				$('.speedTab10').click()
 			}
 
 			if (!/liuchang/.test($('.definiBox').attr('style'))) {
