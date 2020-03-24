@@ -11,11 +11,6 @@
 			console.log('正在检查')
 			const delay = Math.floor(Math.random() * MAX_DELAY * 1000) + 1000
 
-			if (!/1\.0/.test($('.speedBox').attr('style'))) {
-				console.log('使用1倍速')
-				$('.speedTab10').click()
-			}
-
 			if (!/liuchang/.test($('.definiBox').attr('style'))) {
 				console.log('更改画质')
 				$('.line1bq').click()
